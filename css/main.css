@@ -1,0 +1,22 @@
+body {
+    background-color: #24353f;
+}
+h1{ color: #17a2ac;}
+
+
+.form-control{
+    background-color: #24353f;
+background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+input{
+    background-color: transparent !important;
+    color: #fff !important;
+    overflow: visible;
+    font-family: inherit;
+}
+input[type="text" i] {
+    writing-mode: horizontal-tb !important;
+}
